@@ -16,6 +16,16 @@ $ brew install opencv3               # toolkit for computer vision
 $ pip3 install -r requirements.txt   # toolkit for machine learning
 ```
 
+__Dependencies Installation (Ubuntu 20.04):__
+```
+$ sudo add-apt-repository ppa:deadsnakes/ppa               
+$ sudo apt update
+$ sudo apt install python3.6
+$ sudo apt install python3.6-dev    # tk inter needed
+$ python3.6 -m pip install -r requirements.txt   # toolkit for machine learning
+$ python3.6 -m pip install opencv-python
+```
+
 __Dataset & Training:__
 ```
 $ python3 dataset.py
@@ -40,7 +50,7 @@ $ python3 fen.py --input=board.jpg
 
 __Dependencies:__
 
-- [Python 3](https://www.python.org/downloads/)
+- [Python 3.6](https://www.python.org/downloads/)
 - [Scipy 0.19.1](https://www.scipy.org/)
 - [OpenCV 3](http://opencv.org/)
 - [Tensorflow](https://www.tensorflow.org/) (with [tflearn](https://github.com/tflearn/tflearn) support)
